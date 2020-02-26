@@ -1,6 +1,8 @@
 Optimized planet finder for Dark Forest
 ----------------------------------------
 
+Playing Dark Forest (http://zkga.me)?
+
 Can't wait for your browser to mine and find new planets? Use this optimized parallelized miner on a strong machine to uncover location of attractive planets on the map!
 
 Planets have population sizes based on their types, in the following descending order:

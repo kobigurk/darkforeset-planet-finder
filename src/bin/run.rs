@@ -12,7 +12,7 @@ use rayon::prelude::*;
 
 fn main() {
     let mimc = Mimc7::new();
-    let ub = BigInt::from_str("2671904647441317776153125701325350962957564013722660442345972190744117248").unwrap();
+    let ub = BigInt::from_str("163080117641681993173408551106283628110202881696939724264280529220222").unwrap();
     (0..128u64).into_par_iter().for_each(|yy| {
         for y in (yy*64)..((yy+1)*64)  {
             for xx in 0..8192 {

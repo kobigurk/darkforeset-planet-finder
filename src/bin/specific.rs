@@ -12,9 +12,9 @@ use rayon::prelude::*;
 
 fn main() {
     let mimc = Mimc7::new();
-    let ub = BigInt::from_str("2671904647441317776153125701325350962957564013722660442345972190744117248").unwrap();
-    let x = BigInt::from_str("21888242871839275222246405745257275088548364400416034343698204186575808495617").unwrap() - BigInt::from_str("5196").unwrap();
-    let y = BigInt::from_str("5668").unwrap();
+    let ub = BigInt::from_str("163080117641681993173408551106283628110202881696939724264280529220222").unwrap();
+    let x = BigInt::from_str("3511").unwrap();
+    let y = BigInt::from_str("2880").unwrap();
     let h = mimc.hash(vec![x.clone(), y.clone()]).unwrap();
     println!("hash: {}", h);
     if h < ub {
